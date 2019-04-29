@@ -4,12 +4,12 @@ body, html{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 html { 
     margin:0;
     padding:0;
-    background: url(image/fond.jpg) no-repeat center fixed; 
+    background: url(image/fond.jpg) ; 
     -webkit-background-size: cover; 
     background-size: cover;
 }
@@ -28,19 +28,22 @@ html {
     font-family: arial;
     color: red;
     text-shadow: 0px 0px 5px blue;
+    
 }
 .images_petit{
     width: 300px;
     height: 300px;
+    
 }
 .images_petit2{
-    width: 300px;
-    height: 300px;
+    width: 900px;
+    height: 900px;
 }
 body{
     font-family: 'Source code pro', Calibri, serif;
     margin: 0px;
     padding: 0px;
+    
   
 }
 nav{
@@ -48,6 +51,7 @@ nav{
     background-color: #424558;
     text-align: center;
     display: inline-block;
+    
 }
 nav > ul{
     margin: 0px;
@@ -93,7 +97,7 @@ nav li:hover .submenu{
     padding: 15px 30px;
     font-size: 13px;
     color: #222538;
-    width: 270px;
+    width: 146px;
 }
 .menu-html:hover{
     border-top: 5px solid #e44d26;
@@ -129,4 +133,12 @@ nav > ul > li:hover{
 }
 .menu-css .submenu li:hover{
     background-color: RGB(75,75,75);
+}
+img{
+    width: 60px;
+    position: absolute;
+    float: left;
+    right: 970px;
+    top: 3px;
+
 }
