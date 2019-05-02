@@ -112,6 +112,11 @@ nav li:hover .submenu{
     border-top: 5px solid #0070bb;
     background-color: RGBa(220, 220, 220, 0.15);
 }
+.titre:hover{
+    border-top: 5px solid #FFF;
+    background-color: rgba(255,255,255, 0.9);
+
+}
 /*
 nav > ul > li:hover{
     padding:  15px 30px 20px 30px;
@@ -123,6 +128,7 @@ nav > ul > li:hover{
 .menu-css .submenu{
     background-color: RGB(111, 110, 110);
 }
+
 
 .submenu li:hover a{
     color: #EEE;
