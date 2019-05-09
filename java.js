@@ -8,10 +8,5 @@
 
 <body>
      <script type='text/JavaScript'>
-	 //<![CDATA[
-	        
-    //]]>
     </script>
 </body>
-
-</html>
