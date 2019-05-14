@@ -141,7 +141,7 @@ img{
     height: auto;
 
 }
-div {
+#contenu {
     background-color: black;
     padding: 50px;
     margin: 200px;
@@ -150,5 +150,14 @@ div {
     border-image: url(image\border01.png)30 round;
     border: 10px solid transparent;
   }
+
+#titre{
+   
+    position: absolute;
+    background-color: rgb(117, 112, 112);
+    padding: 18px;
+    font-family: Impact, fantasy;
+    font-size: 20px;
+}
 
 
