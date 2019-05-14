@@ -1,0 +1,150 @@
+﻿/* Image de fond */
+body, html{
+    background-image: url("image/karate-wallpaper4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+html { 
+    margin:0;
+    padding:0;
+    background: url(image/karate-wallpaper4.jpg) ; 
+    -webkit-background-size: cover; 
+    background-size: cover;
+}
+/* Titre du site internet */
+
+#titre {
+    text-align: center;
+    font-size: 45px;
+    font-family: arial;
+    color: red;
+    text-shadow: 0px 0px 5px blue;
+    
+}
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+    
+  
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+    text-align: center;
+    display: inline-block;
+    
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content:"";
+    display:block;
+    clear:both;
+} 
+nav > ul > li{
+    display: inline-block;
+    float: center;
+    position: relative;
+}
+nav > ul > li > a{
+    padding:20px 40px;
+    color: #FFF;
+}
+nav li{
+    list-style-type:none;
+}
+.submenu{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.submenu li{
+    border-bottom:  1px solid #CCC;
+
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 146px;
+}
+.menu-html:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(288, 77, 38, 0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid #888;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-contact:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(220, 220, 220, 0.15);
+}
+/*
+nav > ul > li:hover{
+    padding:  15px 30px 20px 30px;
+}
+*/
+.menu-html .submenu{
+    background-color: RGB(230, 100, 40);
+}
+.menu-css .submenu{
+    background-color: RGB(111, 110, 110);
+}
+
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-html .submenu li:hover{
+    background-color:  RGB(210,77,60);
+}
+.menu-css .submenu li:hover{
+    background-color: RGB(75,75,75);
+}
+img{
+    width: 60px;
+    position: absolute;
+    float: left;
+    right: 1100px;
+    top: 3px;
+    height: auto;
+
+}
+
+#module{
+	/*background-color: white;
+	padding: 50px;
+    margin: 200px;
+    margin-top: 20px;
+    height: 1300px;
+    border-image-source: url(image/border01.png) 25 25 round;
+    */
+    background-image: url("image/border01.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /*background-color:white;*/
+    height: 650px;
+    width:450px;
+    padding:150px;
+    margin: auto;
+}
+
