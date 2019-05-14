@@ -5,45 +5,16 @@ body, html{
     background: url("image/dojo.png") no-repeat center center fixed;
     background-size: cover ;
 }
-
-
-/* Code video centrale */
-#video{
-    float: center; 
-}
-
-/* Titre du site internet */
-
-#titre {
-    text-align: center;
-    font-size: 45px;
-    font-family: arial;
-    color: red;
-    text-shadow: 0px 0px 5px blue;
-    
-}
-.images_petit{
-    width: 300px;
-    height: 300px;
-    
-}
-.images_petit2{
-    width: 900px;
-    height: 900px;
-}
 body{
     font-family: 'Source code pro', Calibri, serif;
     margin: 0px;
     padding: 0px;
-    
-  
 }
 nav{
     width: 100%;
     background-color: #424558;
     text-align: center;
     display: inline-block;
-    
 }
 nav > ul{
     margin: 0px;
@@ -83,7 +54,6 @@ nav li:hover .submenu{
 }
 .submenu li{
     border-bottom:  1px solid #CCC;
-
 }
 .submenu li a{
     padding: 15px 30px;
@@ -104,22 +74,12 @@ nav li:hover .submenu{
     border-top: 5px solid #0070bb;
     background-color: RGBa(220, 220, 220, 0.15);
 }
-
-
-}
-/*
-nav > ul > li:hover{
-    padding:  15px 30px 20px 30px;
-}
-*/
 .menu-html .submenu{
     background-color: RGB(230, 100, 40);
 }
 .menu-css .submenu{
     background-color: RGB(111, 110, 110);
 }
-
-
 .submenu li:hover a{
     color: #EEE;
     font-weight: bold;
@@ -164,5 +124,3 @@ a{
 text-decoration: none;
 color: white;
 }
-
-
