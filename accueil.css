@@ -142,13 +142,14 @@ img{
 
 }
 #contenu {
-    background-color: black;
+    background-color: white;
     padding: 50px;
     margin: 200px;
     margin-top: 20px;
     height: 1300px;
-    border-image: url(image\border01.png)30 round;
-    border: 10px solid transparent;
+    border: 30px solid transparent;
+    border-image-source: url(image\border01.png);
+    border-image-slice: 30;
   }
 
 #titre{
