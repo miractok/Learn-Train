@@ -148,3 +148,16 @@ img{
     margin: auto;
 }
 
+#titre{
+   
+    position: absolute;
+    background-color: rgb(117, 112, 112);
+    padding: 18px;
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    
+}
+a{
+text-decoration: none;
+color: white;
+}
