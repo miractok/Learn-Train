@@ -62,9 +62,18 @@ nav li:hover .submenu{
     width: 146px;
 }
 .menu-html:hover{
+    
     border-top: 5px solid #e44d26;
     background-color: RGBa(288, 77, 38, 0.15);
+
 }
+
+
+
+/*-webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+    box-shadow:inset 0px 0px 0px 10px #f00;*/
+
 .menu-css:hover{
     border-top: 5px solid #888;
     background-color: RGBa(000, 112, 192, 0.15);
@@ -123,6 +132,9 @@ img{
     
 }
 a{
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
+    }
+#rouge{
+    color: #FF0000;
 }
