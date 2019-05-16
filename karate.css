@@ -1,5 +1,7 @@
 ﻿/* Image de fond */
 body, html{
+    margin:0;
+    padding:0;
     background-image: url("image/karate-wallpaper4.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -7,13 +9,7 @@ body, html{
     background-attachment: fixed; 
 }
 
-html { 
-    margin:0;
-    padding:0;
-    background: url(image/karate-wallpaper4.jpg) ; 
-    -webkit-background-size: cover; 
-    background-size: cover;
-}
+
 /* Titre du site internet */
 
 #titre {
@@ -130,22 +126,15 @@ img{
 }
 
 #module{
-	/*background-color: white;
-	padding: 50px;
-    margin: 200px;
+    background-color: white;
+    padding: 50px;
+    margin: 300px;
     margin-top: 20px;
     height: 1300px;
-    border-image-source: url(image/border01.png) 25 25 round;
-    */
-    background-image: url("image/border01.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /*background-color:white;*/
-    height: 650px;
-    width:450px;
-    padding:150px;
-    margin: auto;
+    border: 30px solid transparent;
+    border-image-source: url("image/border02.png");
+    border-image-slice: 90;
+    border-image-width: auto;
 }
 
 #titre{
