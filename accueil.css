@@ -102,13 +102,15 @@ img{
 #contenu {
     background-color: white;
     padding: 50px;
-    margin: 200px;
+    margin: 300px;
     margin-top: 20px;
     height: 1300px;
     border: 30px solid transparent;
-    border-image-source: url("image\border01.png");
-    border-image-slice: 30;
-    border-image-width: 40px;
+    border-image-source: url("image/border02.png");
+    border-image-slice: 90;
+    border-image-width: auto;
+    
+    
   }
 
 #titre{
