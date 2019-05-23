@@ -15,6 +15,10 @@ nav{
     background-color: #424558;
     text-align: center;
     display: inline-block;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 nav > ul{
     margin: 0px;
@@ -43,6 +47,10 @@ nav li{
 nav a{
     display: inline-block;
     text-decoration: none;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 nav li:hover .submenu{
     display: inline-block;
@@ -60,6 +68,10 @@ nav li:hover .submenu{
     font-size: 13px;
     color: #222538;
     width: 146px;
+<<<<<<< Updated upstream
+=======
+  
+>>>>>>> Stashed changes
 }
 .menu-html:hover{
     
@@ -82,6 +94,10 @@ nav li:hover .submenu{
 .menu-contact:hover{
     border-top: 5px solid #0070bb;
     background-color: RGBa(220, 220, 220, 0.15);
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 .menu-html .submenu{
     background-color: RGB(230, 100, 40);
@@ -101,6 +117,10 @@ nav li:hover .submenu{
 }
 nav > ul >li:hover a{
     padding: 15px 30px 20px 30px;
+<<<<<<< Updated upstream
+=======
+   
+>>>>>>> Stashed changes
 }
 img{
     width: 60px;

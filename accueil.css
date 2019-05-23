@@ -43,6 +43,7 @@ nav li{
 nav a{
     display: inline-block;
     text-decoration: none;
+
 }
 nav li:hover .submenu{
     display: inline-block;
@@ -101,6 +102,7 @@ nav li:hover .submenu{
 }
 nav > ul >li:hover a{
     padding: 15px 30px 20px 30px;
+   
 }
 img{
     width: 60px;
