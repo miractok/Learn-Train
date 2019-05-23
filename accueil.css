@@ -1,4 +1,4 @@
-/* Image de fond */
+﻿/* Image de fond */
 body, html{
     margin:0;
     padding:0;
@@ -112,7 +112,7 @@ img{
 
 }
 #contenu {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.445);
     padding: 50px;
     margin: 300px;
     margin-top: 20px;
